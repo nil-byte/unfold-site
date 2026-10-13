@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nil-byte.github.io/unfold-site/sitemap.xml
