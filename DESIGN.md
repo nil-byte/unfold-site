@@ -1,28 +1,28 @@
-# Unfold website design
+# Unfold product website design
 
-## Direction
-Quiet editorial layout for a native Mac utility. Warm paper, dark ink, the application's blue, and complete real screenshots. The Unfold serif wordmark comes from the app icon; interface copy uses system fonts. No reviews, usage claims, or download availability are invented.
+## Theme
+A quiet native Mac product page. Product-first composition, clear system typography, restrained blue, and complete real application screenshots. The page represents the actual pre-release app; it does not promise availability or invent reviews.
 
 ## Palette
-Canvas #f7f7f3; ink #22272b; muted #5d646b; accent #006ad4; rule #d9dcda. Dark canvas #17191c; ink #eceeea; muted #b2b8bd; accent #79b6ff; rule #3b4147.
+Light canvas #fbfcfd, ink #202631, muted #646e7c, accent #2b65d8, rule #e2e7ed. Dark canvas #11151b, ink #edf1f7, muted #a2adbc, accent #8cb6ff, rule #2c3541. Screenshot pixels retain their original appearance in both themes.
 
-## Type
-System UI and PingFang for body, 16-20px with 1.75 line height. Georgia and Songti for the 52-80px editorial headline, 1.16 line height. Chinese tracking stays normal. Latin display tracking -0.025em.
+## Typography
+System UI / PingFang, no external fonts. Desktop hero 42–60px, weight 650, 1.15 line height. Section headings 30–38px; body 14–16px, 1.75 line height. Balanced headings; no artificial letter spacing in long Chinese body text. The real app icon retains its original serif wordmark.
 
 ## Components
-Text navigation and language links; one solid blue hero action. Native-looking pill screenshot tabs, focus-visible outline, 40px minimum hit area. Two-column feature comparison with separators. FAQ uses native details/summary. No modal gallery; full-size images remain links. Radius: 6px, 14px, pill.
+Compact text navigation and language menu. A 40px icon opens the System / Light / Dark appearance menu; default is System and selection is stored locally. Seven direct screenshot buttons use a thin selected underline, with horizontal overflow limited to the button rail on narrow screens. Arrow keys, Home, End, Tab and Enter work; a live counter identifies the selected image. FAQ uses native details / summary. Escape closes header menus. Image links open originals; no modal gallery.
 
-## Composition
-Compact brand/navigation; two-column editorial introduction; full-width screenshot gallery; three numbered feature rows with break-screen inset; free/Pro comparison; local-data privacy statement; support FAQ and footer. Sections use a 32/64/96px spacing ladder.
+## Layout
+Hero copy and Today screenshot side by side, followed by a simple factual strip. A titled screenshot gallery provides all seven surfaces. Product stories describe reminders, avoidance and history beside a real rest-screen image. Free / Pro comparison, privacy statement, support and footer follow. Support and privacy are readable document pages with the same navigation and theme controls.
 
 ## Depth
-Only screenshot frames are elevated. Text sections use spacing and hairline separators. Dark theme changes page tokens without recoloring screenshot pixels.
+Only real app screenshots and open header menus receive restrained shadows. Content hierarchy comes from typography, spacing and hairline rules. Screenshot ratio follows the source; menu and settings images are capped at meaningful widths. No fixed image viewport, decorative app chrome or recolored screenshots.
 
 ## Constraints
-Original HTML/CSS/JS, no frontend framework or third-party runtime. Three locales, keyboard support, reduced motion, no tracking or cookies. GitHub Pages project paths remain relative. Support and privacy pages work without JavaScript.
+Original static HTML / CSS / JavaScript with CSS variables as the single styling strategy. Three locales, no third-party runtime, tracking, cookies or external fonts. Site privacy text discloses the locally saved appearance preference. Support and privacy content remains readable without JavaScript. Do not claim Mac App Store availability until there is a working listing.
 
 ## Responsive
-Below 760px: one column, 24px page gutters, wrapping navigation and language links. At 320px use 18px gutters and 44px headline. Images retain aspect ratio, no horizontal page scroll.
+1180px content maximum, 40px desktop gutters. Below 760px: one-column hero and product stories, 20px gutters. Header can occupy two rows on phones; gallery rail can scroll independently. 320px and 375px layouts must not create horizontal page overflow. Reduced-motion preference disables transitions.
 
-## Maintenance
-Keep screenshots real and state that App Store launch is pending. Only replace the launch status with a working store link after release. Update prices and paid feature boundaries with App Store Connect. Do not add testimonial placeholders or health-result claims.
+## Maintenance and references
+Keep the paid/free boundary consistent with the app and App Store Connect. Web screenshots use intrinsic-ratio WebP; App Store uploads use separately validated 2880×1800 RGB/sRGB PNG. Reference research: LookAway's break/customization scenes, Things' product-image presentation, and Raycast's compact navigation, system-like sans typography, and section hierarchy. Firecrawl inspected public HTML and branding data, not just thumbnails. These informed original layout decisions; no third-party source or visual assets were copied.

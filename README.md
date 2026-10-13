@@ -24,3 +24,7 @@ We inspected the rendered content and HTML/layout classes with Firecrawl, then b
 - [Stretchly](https://hovancik.net/stretchly/): keep support and product navigation direct.
 
 No third-party page code, logos, testimonials, or product screenshots are distributed in this repository. The screenshots and icon are from Unfold. The custom background is the image selected in the development app; it illustrates a Pro capability rather than a purchase entitlement.
+
+Current gallery includes Today, day/week/month history, reminder settings, menu bar, and the rest screen in all three languages. Appearance defaults to System with manual Light/Dark choices; only that preference is stored locally. Web images preserve intrinsic ratio. The App Store screenshot set is separate from the website images.
+
+Additional design reference: [Raycast](https://www.raycast.com/). Inspected live HTML component structure (navbar, hero, section titles and product scenes) plus extracted typography, color and spacing information. The site uses its own static implementation and the Unfold palette rather than copying Raycast components or assets.
